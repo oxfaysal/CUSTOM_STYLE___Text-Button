@@ -147,7 +147,7 @@ TextStyle BODYTEXT (context){
 #### Primary Button
 
 ```
-// Wrap on SizeBox and use SizeBox Width
+// Note: Button Wrap on SizeBox and use SizeBox Width
 
 double PRIMARY_BTN_WIDTH(BuildContext context) {
   final width = MediaQuery.of(context).size.width;
