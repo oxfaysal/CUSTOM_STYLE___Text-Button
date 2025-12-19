@@ -8,7 +8,6 @@ int TABLET = 850;
 int DESKTOP = 1024;
 int LEARGE_SCREEN = 1280;
 int FULL_SCREEN = 1980;
-
 ```
 
 
@@ -59,7 +58,6 @@ TextStyle HEADLINE (context){
   }
 
 }
-
 ```
 
 #### Sub Headling
@@ -101,7 +99,6 @@ TextStyle SUBHEADLINE (context){
   }
 
 }
-
 ```
 
 #### Body Text
