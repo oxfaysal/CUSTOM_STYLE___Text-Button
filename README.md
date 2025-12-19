@@ -14,6 +14,8 @@ int FULL_SCREEN = 1980;
 
 ### TextStyle
 
+#### Headline
+
 ```
 TextStyle HEADLINE (context){
 
@@ -58,6 +60,10 @@ TextStyle HEADLINE (context){
 
 }
 
+```
+
+#### Sub Headling
+```
 TextStyle SUBHEADLINE (context){
 
   var width = MediaQuery.of(context).size.width;
@@ -96,6 +102,11 @@ TextStyle SUBHEADLINE (context){
 
 }
 
+```
+
+#### Body Text
+
+```
 TextStyle BODYTEXT (context){
 
   var width = MediaQuery.of(context).size.width;
@@ -133,10 +144,10 @@ TextStyle BODYTEXT (context){
   }
 
 }
-
 ```
 
 ### Button Style
+#### Primary Button
 
 ```
 // Wrap on SizeBox and use SizeBox Width
