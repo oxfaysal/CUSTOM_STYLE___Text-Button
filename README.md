@@ -149,7 +149,7 @@ TextStyle BODYTEXT (context){
 ```
 // Note: Button Wrap on SizeBox and use SizeBox Width
 
-double PRIMARY_BTN_WIDTH(BuildContext context) {
+double PRIMARY_BTN_WIDTH(context) {
   final width = MediaQuery.of(context).size.width;
 
   if (width < MOBILE) {
