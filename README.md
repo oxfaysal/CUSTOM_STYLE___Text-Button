@@ -13,7 +13,7 @@ int FULL_SCREEN = 1980;
 
 ### TextStyle
 
-#### Headline
+#### Heading
 
 ```
 TextStyle HEADLINE (context){
