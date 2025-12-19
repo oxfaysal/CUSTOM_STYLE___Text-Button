@@ -60,7 +60,7 @@ TextStyle HEADLINE (context){
 }
 ```
 
-#### Sub Headling
+#### Sub Heading
 ```
 TextStyle SUBHEADLINE (context){
 
